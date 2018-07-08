@@ -9,7 +9,7 @@ This is a Java library providing some simple objects representing common entitie
 
 ## Built With
 
-* [Maven](https://maven.apache.org/) - Dependency Management
+* [Maven](https://maven.apache.org) - Dependency Management
 
 ## Getting Started
 
