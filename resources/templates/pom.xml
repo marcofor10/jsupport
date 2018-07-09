@@ -5,12 +5,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.jfoma.project_name</groupId>
+  <groupId>com.github.mforoni.project_name</groupId>
   <artifactId>project_name</artifactId>
   <version>0.1-SNAPSHOT</version>
 
   <name>project_name</name>
-  <url>https://github.com/marcofor10/project_name</url>
+  <url>https://github.com/mforoni/project_name</url>
 
   <licenses>
     <license>
@@ -22,7 +22,7 @@
 
   <developers>
     <developer>
-      <id>marcofor10</id>
+      <id>mforoni</id>
       <name>Marco Foroni</name>
       <email>marcofor10@gmail.com</email>
       <roles>
@@ -39,13 +39,13 @@
   </properties>
 
   <scm>
-    <url>https://github.com/marcofor10/project_name</url>
-    <connection>scm:git:git://github.com/marcofor10/project_name.git</connection>
-    <developerConnection>scm:git:git@github.com:marcofor10/project_name.git</developerConnection>
+    <url>https://github.com/mforoni/project_name</url>
+    <connection>scm:git:git://github.com/mforoni/project_name.git</connection>
+    <developerConnection>scm:git:git@github.com:mforoni/project_name.git</developerConnection>
   </scm>
 
   <issueManagement>
-    <url>https://github.com/marcofor10/project_name/issues</url>
+    <url>https://github.com/mforoni/project_name/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 

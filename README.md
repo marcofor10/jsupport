@@ -27,7 +27,7 @@ This is a Java library providing some simple objects representing common entitie
 To add a dependency on JSupport, use the following:
 ```xml
 <dependency>
-  <groupId>org.jfoma.jsupport</groupId>
+  <groupId>com.github.mforoni.jsupport</groupId>
   <artifactId>jsupport</artifactId>
   <version>0.1-SNAPSHOT</version>
 </dependency>
@@ -36,17 +36,17 @@ To add a dependency on JSupport, use the following:
 To add a dependency using Gradle:
 ```
 dependencies {
-  compile 'org.jfoma.jsupport:jsupport:0.1-SNAPSHOT'
+  compile 'com.github.mforoni.jsupport:jsupport:0.1-SNAPSHOT'
 }
 ```
 
 ## Author
 
-* **Marco Foroni** - [marcofor10](https://github.com/marcofor10)
+* **Marco Foroni** - [mforoni](https://github.com/mforoni)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/marcofor10/jsupport/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/mforoni/jsupport/blob/master/LICENSE) file for details
 
 
 ## IMPORTANT WARNINGS
@@ -55,4 +55,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 1. APIs marked with the `@Beta` annotation at the class or method level
 are subject to change. They can be modified in any way, or even
-removed, at any time. Read more about [`@Beta` annotation](https://github.com/google/guava#important-warnings).
+removed, at any time. Read more about [`@Beta`](https://github.com/google/guava#important-warnings) annotation.

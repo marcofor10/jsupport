@@ -1,7 +1,7 @@
-package org.jfoma.jsupport;
+package com.github.mforoni.jsupport;
 
 import java.util.List;
-import org.jfoma.jsupport.Person.Gender;
+import com.github.mforoni.jsupport.Person.Gender;
 import org.joda.time.LocalDate;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;

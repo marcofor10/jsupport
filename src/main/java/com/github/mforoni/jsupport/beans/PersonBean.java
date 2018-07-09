@@ -1,4 +1,4 @@
-package org.jfoma.jsupport.beans;
+package com.github.mforoni.jsupport.beans;
 
 import java.io.Serializable;
 import java.util.List;

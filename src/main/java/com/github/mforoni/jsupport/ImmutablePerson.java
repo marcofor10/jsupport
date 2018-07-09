@@ -1,4 +1,4 @@
-package org.jfoma.jsupport;
+package com.github.mforoni.jsupport;
 
 import javax.annotation.concurrent.Immutable;
 import org.joda.time.LocalDate;

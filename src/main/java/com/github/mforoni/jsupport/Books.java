@@ -1,6 +1,6 @@
-package org.jfoma.jsupport;
+package com.github.mforoni.jsupport;
 
-import static org.jfoma.jsupport.Authors.ANNIE_DILLARD;
+import static com.github.mforoni.jsupport.Authors.ANNIE_DILLARD;
 import java.util.List;
 import com.google.common.collect.Lists;
 
