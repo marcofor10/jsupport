@@ -16,11 +16,11 @@ This is a Java library providing some simple objects representing common entitie
 ### Minimum Requirements
 
 * Java 1.7 or above - tested with [OracleJDK 7.0](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html)
-* Maven - [offical download page](https://maven.apache.org/download.cgi)
+* Maven - [official download page](https://maven.apache.org/download.cgi)
 
-### Adding jsupport to your build
+### Adding JSupport to your build
 
-1. This project is not yet avaiable on the official maven repository: the project must be cloned and manutally installed into your local maven repository.
+1. This project is not yet available on the official maven repository: the project must be cloned and manually installed into your local maven repository.
 
 1. Then you can start using JSupport by adding Maven dependencies into your Maven project.
 
