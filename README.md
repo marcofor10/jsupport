@@ -40,6 +40,10 @@ dependencies {
 }
 ```
 
+## Code Style
+
+This project follow the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
+
 ## Author
 
 * **Marco Foroni** - [mforoni](https://github.com/mforoni)

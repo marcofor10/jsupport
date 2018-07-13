@@ -38,6 +38,10 @@ dependencies {
 }
 ```
 
+## Code Style
+
+This project follow the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
+
 ## Learn about project_name
 
 - Our users' guide, [project_name Explained]
