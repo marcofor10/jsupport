@@ -9,7 +9,8 @@ import org.joda.time.LocalDate;
 @Immutable
 public final class ImmutablePerson extends Person {
 
-	public ImmutablePerson(final String firstName, final String lastName, final LocalDate dateBirth, final Gender gender, final String email) {
-		super(firstName, lastName, dateBirth, gender, email);
-	}
+  public ImmutablePerson(final String firstName, final String lastName, final LocalDate dateBirth,
+      final Gender gender, final String email) {
+    super(firstName, lastName, dateBirth, gender, email);
+  }
 }
