@@ -1,3 +1,5 @@
+[![build_status](https://travis-ci.org/mforoni/jsupport.svg?branch=master)](https://travis-ci.org/mforoni/jsupport)
+
 # JSupport
 
 This is a Java library providing some simple objects representing common entities such as a person, a book or an author, useful for creating demo examples. It also contains useful resources like:
@@ -5,7 +7,7 @@ This is a Java library providing some simple objects representing common entitie
 * a template of .gitignore file
 * a template of a generic README.md
 * a template of a generic pom.xml
-* a configuration file for the Eclipse Java code style formatter  
+* configuration files for both Eclipse and IntelliJ IDEA code style formatter settings.  
 
 ## Built With
 
@@ -43,6 +45,10 @@ dependencies {
 ## Code Style
 
 This project follow the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
+
+## Project Management
+
+[Trello Board.](https://trello.com/b/4Y2iF3av/jsupport)
 
 ## Author
 
