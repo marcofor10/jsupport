@@ -18,27 +18,48 @@ This is a Java library providing some simple objects representing common entitie
 ### Minimum Requirements
 
 * Java 1.7 or above - tested with [OracleJDK 7.0](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html)
-* Maven - [official download page](https://maven.apache.org/download.cgi)
+* One build automation tool:
+  * Maven - [official download page](https://maven.apache.org/download.cgi)
+  * [Gradle](https://gradle.org/)
 
 ### Adding JSupport to your build
 
-1. This project is not yet available on the official maven repository: the project must be cloned and manually installed into your local maven repository.
+This project is not yet available on the official maven repository but with [JitPack](https://jitpack.io/) 
+it can easily be overcome just by following these two steps:
 
-1. Then you can start using JSupport by adding Maven dependencies into your Maven project.
+1. Add the JitPack repository to your build file
 
-To add a dependency on JSupport, use the following:
+```xml
+<repositories>
+  <repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+```
+
+1. Add the dependency on JSupport
+
 ```xml
 <dependency>
-  <groupId>com.github.mforoni.jsupport</groupId>
+  <groupId>com.github.mforoni</groupId>
   <artifactId>jsupport</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>master-SNAPSHOT</version>
 </dependency>
 ```
 
-To add a dependency using Gradle:
-```
+For Gradle add the following in your root `build.gradle` at the end of repositories:
+
+```gradle
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
+
 dependencies {
-  compile 'com.github.mforoni.jsupport:jsupport:0.1-SNAPSHOT'
+  implementation 'com.github.mforoni:jsupport:master-SNAPSHOT'
 }
 ```
 
