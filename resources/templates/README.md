@@ -11,7 +11,9 @@ The project description goes here
 ### Minimum Requirements
 
 * Java 1.7 or above - tested with [OracleJDK 7.0](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html)
-* Maven - [official download page](https://maven.apache.org/download.cgi)
+* One build automation tool:
+  * [Maven](https://maven.apache.org/download.cgi)
+  * [Gradle](https://gradle.org/)
 
 ### Adding project_name to your build
 
