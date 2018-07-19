@@ -1,4 +1,5 @@
 [![build_status](https://travis-ci.org/mforoni/jsupport.svg?branch=master)](https://travis-ci.org/mforoni/jsupport)
+[![Release](https://jitpack.io/v/com.github.mforoni/jsupport.svg)](https://jitpack.io/#com.github.mforoni/jsupport)
 
 # JSupport
 
@@ -78,7 +79,6 @@ This project follow the [Google Java Style Guide](https://google.github.io/style
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/mforoni/jsupport/blob/master/LICENSE) file for details
-
 
 ## IMPORTANT WARNINGS
 
