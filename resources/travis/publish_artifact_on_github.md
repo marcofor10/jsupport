@@ -1,6 +1,6 @@
-# Travis configuration for publish artifact to github release
+# Travis configuration for publish artifact to GitHub release
 
-Configuration of `.travis.yml` for publish JSupport artifact to github release:
+Configuration of `.travis.yml` for publish JSupport artifact to GitHub release:
 
 ```yml
 language: java
