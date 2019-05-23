@@ -4,7 +4,6 @@ package com.github.mforoni.jsupport;
  * @author Foroni Marco
  */
 public class Book {
-
   private final String isbn;
   private final String title;
   private final int year;
@@ -36,7 +35,6 @@ public class Book {
 
   @Override
   public String toString() {
-    return "Book [isbn=" + isbn + ", title=" + title + ", year=" + year + ", author=" + author
-        + "]";
+    return title;
   }
 }

@@ -1,14 +1,17 @@
 package com.github.mforoni.jsupport;
 
 import static com.github.mforoni.jsupport.Authors.ANNIE_DILLARD;
+import java.util.ArrayList;
 import java.util.List;
+import org.fluttercode.datafactory.impl.DataFactory;
+import org.joda.time.LocalDate;
+import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
 
 /**
  * @author Foroni Marco
  */
 public final class Books {
-
   public static final Book TICKETS_FOR_A_PRAYER_WHEEL =
       new Book("0-8195-6536-9", "Tickets for a Prayer Wheel", 1974, ANNIE_DILLARD);
   public static final Book PILGRIM_AT_TIKER_CREEK =
@@ -39,8 +42,21 @@ public final class Books {
       TICKETS_FOR_A_PRAYER_WHEEL, PILGRIM_AT_TIKER_CREEK, HOLY_THE_FIRM, LIVING_BY_FICTION,
       TEACHING_A_STONE_TO_TALK, ENCOUNTERS_WITH_CHINESE_WRITERS, AN_AMERICAN_CHILDHOOD,
       THE_WRITING_LIFE, THE_LIVING, MORNINGS_LIKE, FOR_THE_TIME_BEING, THE_MAYTRESS, THE_ABUNDANCE);
+  private static final DataFactory DATA_FACTORY = RandomData.INSTANCE.get();
 
   private Books() {
     throw new AssertionError();
+  }
+
+  public static List<Book> newRandomList(final int size, final List<Author> authors) {
+    Preconditions.checkArgument(authors.size() > 0);
+    final List<Book> books = new ArrayList<>();
+    for (int i = 0; i < size; i++) {
+      final Author a = authors.get(DATA_FACTORY.getNumberBetween(0, authors.size() - 1));
+      final Book b = new Book(DATA_FACTORY.getRandomWord(10), DATA_FACTORY.getRandomText(5, 60),
+          DATA_FACTORY.getNumberBetween(1900, new LocalDate().getYear()), a);
+      books.add(b);
+    }
+    return books;
   }
 }

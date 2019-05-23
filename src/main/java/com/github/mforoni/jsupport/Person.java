@@ -1,6 +1,7 @@
 package com.github.mforoni.jsupport;
 
 import javax.annotation.Nullable;
+import org.fluttercode.datafactory.impl.DataFactory;
 import org.joda.time.LocalDate;
 import com.google.common.base.Function;
 
@@ -8,16 +9,17 @@ import com.google.common.base.Function;
  * @author Foroni Marco
  */
 public class Person {
-
   public enum Gender {
-    MALE, FEMALE
+    MALE, FEMALE;
+    public static Gender random(final DataFactory dataFactory) {
+      return dataFactory.chance(50) ? Gender.MALE : Gender.FEMALE;
+    }
   }
 
   public static final Function<Person, String> GET_LASTNAME = new Function<Person, String>() {
-
     @Override
-    public String apply(@Nullable final Person input) {
-      return input == null ? null : input.getLastName();
+    public String apply(@Nullable final Person p) {
+      return p == null ? null : p.getLastName();
     }
   };
   protected String firstName;
@@ -57,7 +59,6 @@ public class Person {
 
   @Override
   public String toString() {
-    return "Person [firstName=" + firstName + ", lastName=" + lastName + ", dateBirth=" + dateBirth
-        + ", gender=" + gender + ", email=" + email + "]";
+    return firstName + " " + lastName;
   }
 }
